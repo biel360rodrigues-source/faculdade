@@ -1,0 +1,39 @@
+body{
+    background: #2c3e50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial;
+}
+
+.calculadora{
+    background: #34495e;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#resultado{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: right;
+}
+
+.botoes{
+    display: grid;
+    grid-template-columns: repeat(4,60px);
+    gap: 10px;
+}
+
+button{
+    height: 40px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.zero{
+    grid-column: span 2;
+}
